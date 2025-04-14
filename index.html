@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do List</h1>
+            <button id="themeToggle">🌙</button>
+        </header>
+        
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="Add a new task..." maxlength="50">
+            <button id="addTaskBtn">➕</button>
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <button id="clearTasks">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
